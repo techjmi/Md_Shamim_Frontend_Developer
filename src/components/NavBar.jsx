@@ -34,7 +34,7 @@ const NavBar = () => {
           </div> */}
 
           {/* Desktop Navigation */}
-          <div className="h-[50px] items-center hidden w-[550px] md:flex space-x-8 rounded-[48px] bg-[#0C2B2FB2] p-2 text-center mx-auto justify-center">
+          <div className="h-[50px] items-center hidden w-[550px] md:flex space-x-8 rounded-[48px] bg-[#0d3a40b2] p-2 text-center mx-auto justify-center">
             {navItems.map((item) => (
               <a
                 key={item.label}
@@ -49,13 +49,13 @@ const NavBar = () => {
           {/* Authentication Buttons - Desktop */}
           <div className="hidden md:flex items-center space-x-4">
             <button className="text-white hover:text-gray-300">Log in</button>
-            <button className="bg-cyan-400 text-black px-4 py-2 rounded-lg hover:bg-cyan-500">
+            <button className="bg-white text-black px-4 py-2 rounded-lg hover:bg-cyan-500">
               Whitepaper
             </button>
           </div>
 
           {/* Mobile Menu Button */}
-          <div className="mobile bg-[#0C2B2FB2] md:hidden rounded-[48px] flex justify-between w-full p-2 items-center">
+          <div className="mobile bg-[#135962b2] md:hidden rounded-[48px] flex justify-between w-full p-2 items-center h-[64px]">
             <div className="text-cyan-400 text-2xl font-bold">
               {/* <span className="flex items-center gap-1">
                 <span className="text-cyan-400">Eth</span>

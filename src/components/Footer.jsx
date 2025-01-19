@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
           {/* Left side - Logo and social icons */}
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 self-center md:self-start">
             {/* Logo */}
             <div className="flex items-center">
               <div className="text-cyan-400 text-3xl font-bold flex items-center gap-1">

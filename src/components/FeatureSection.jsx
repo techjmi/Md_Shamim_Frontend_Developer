@@ -5,6 +5,7 @@ import LayeredSquare from './LayeredSquare';
 export default function FeaturesSection() {
   return (
     <div className=" text-white md:py-12 md:px-[120px] md:pt-[32px] md:pb-[40px]  flex flex-col gap-[16px]">
+      <h1 className='md:hidden text-center font-semibold text-2xl mb-2'>Our Features</h1>
       <div className="flex md:flex-row flex-col gap-[16px]">
         <div className="w-full mx-2px md:mx-0 md:w-[280px] md:h-[430px] bg-[var(--color-cyan-1270,#0C2B2FB2)] rounded-tl-[40px] rounded-[8px] md:px-[37px] md:pt-[10px] md:pb-[37px] flex flex-col justify-between">
           <div className="flex justify-center md:justify-start">
@@ -47,7 +48,7 @@ export default function FeaturesSection() {
             <p className='text-slate-500 mt-5'>Easily manage your portfolio. You'll always know what you own, how it's performing, and where it’s headed.</p>
           </div>
         </div>
-        <div className=" p-[32px] rounded-br-[40px] rounded-[16px] bg-[var(--color-cyan-1270,#0C2B2FB2)] md:w-[738px] flex justify-between relative w-full">
+        <div className=" p-[32px] rounded-br-[40px] rounded-[16px] bg-[var(--color-cyan-1270,#0C2B2FB2)] md:w-[695px] flex justify-between relative w-full">
           <div className="md:w-[299px]">
             <h1 className='text-lg font-medium font-serif'>Opportunity Scout</h1>
             <p className='text-slate-500 mt-5'>Find exciting new projects, events and tokens that others might be missing. Identifying promising opportunities early, so you never miss out on the next big thing.</p>

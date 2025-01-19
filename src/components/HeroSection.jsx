@@ -16,8 +16,8 @@ export default function HeroSection() {
             Empowering Trading Through Advanced Technology
           </p>
           <div className="flex justify-center mt-6">
-            <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-6 py-3 rounded-lg">
-              Get Started
+            <button className="buttons px-6 py-2 text-white focus:outline-none buttons rounded-[12px]">
+              Open dApp
             </button>
           </div>
         </div>
